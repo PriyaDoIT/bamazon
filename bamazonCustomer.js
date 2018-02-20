@@ -69,7 +69,7 @@ function runSearch() {
                         connection.query('UPDATE product SET stock_quantity = ? WHERE item_id = ?', [updateQty, answer.id], 
                         function (error, results, fields) {
                             if (error) throw error;
-                            // ...
+                          
                           });
                         //display total price
                         console.log(`Your total is: $${total}`)
@@ -83,5 +83,3 @@ function runSearch() {
                 })
         })
 }
-
-

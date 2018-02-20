@@ -4,8 +4,8 @@ CREATE database bamazon;
 
 USE bamazon;
 
-CREATE TABLE products (
-  item_id INT NOT NULL AUTO_INCREMENT,,
+CREATE TABLE product (
+  item_id INT NOT NULL AUTO_INCREMENT,
   product_name VARCHAR(250) NULL,
   department_name  VARCHAR(250) NULL,
   price DECIMAL(10,4) NULL,
@@ -15,5 +15,5 @@ CREATE TABLE products (
 );
 
 -- display entire table
-SELECT * FROM products;
+SELECT * FROM product;
 
