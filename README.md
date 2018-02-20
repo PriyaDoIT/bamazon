@@ -17,7 +17,7 @@ The customer interface allows the user to view the current inventory of store it
 
 You can watch a demo of the [Customer Interface here](https://drive.google.com/open?id=1dl3NlAVOHvy9Ey8e3aBJna4ZvKNzTJ8a)
 
-### Manager Interace
+### Manager Interface
 
 The manager interface presents a list of four options, as below. 
 
