@@ -24,7 +24,8 @@ function presentOptions() {
             "View Products for Sale",
             "View Low Inventory",
             "Add to Inventory",
-            "Add New Product"
+            "Add New Product",
+            "Quit"
         ]
     })
         .then(function (answer) {
@@ -43,6 +44,9 @@ function presentOptions() {
 
                 case "Add New Product":
                     addNew();
+                    break;
+                case "Quit":
+                    connection.end();
                     break;
             }
         });
